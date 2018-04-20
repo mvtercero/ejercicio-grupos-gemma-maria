@@ -6,7 +6,6 @@
 
   <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.1.0/jasmine_favicon.png">
   <link rel="stylesheet" href="lib/jasmine-3.1.0/jasmine.css">
-  <link rel="stylesheet" href="../styles/styles.css">
 
   <script src="lib/jasmine-3.1.0/jasmine.js"></script>
   <script src="lib/jasmine-3.1.0/jasmine-html.js"></script>
@@ -24,17 +23,28 @@
 
     <div>
         <h1>Grupo 1: Mañana</h1>
-        <ul class="list1-users"></ul>
-        <button class="add-button-list1"></button>
-        
+        <ul class="list1-users">
+          <li class="user1"></li>
+        </ul>
+        <div>
+            <label>Nombre de usuario:</label>
+            <input type="text" id="box-name1" value="">
+            <button id="add-button-list1">+</button>
+          </div>        
     </div>
 
     <div>
 
         <h1>Grupo 2: Tarde</h1>
         <ul class="list2-users"></ul>
-        <button class="add-button-list2"></button>
+        <div>
+            <label>Nombre de usuario:</label>
+            <input type="text" id="box-name2" value="">
+            <button id="add-button-list2">+</button>
+          </div> 
     </div>
+
+
 
 </body>
 </html>
